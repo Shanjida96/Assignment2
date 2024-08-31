@@ -1,0 +1,92 @@
+@media only screen and (max-width: 480px){
+   *{
+    display: flex;
+    flex-direction: column;
+   }
+.navbar{
+      gap:30px;
+   }
+ .container{
+    display: flex;
+    flex-direction: column;
+ }
+ .order {
+  width: 600px;
+}
+.Order_container{
+   display: flex; 
+   flex-direction: row;
+}
+#OrderNow{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.butn_container{
+   display: flex;
+   flex-direction: row;
+   margin: 20px;
+}
+.Shortlist{
+   display: flex;
+   flex-direction: row;
+}
+.PS_desc{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width:1200px;
+   margin: 100px;
+}
+.Popular {
+   display:grid;
+   grid-template-columns:auto auto;
+   justify-content: space-between;
+}
+#Add_to_cart{
+   align-items: center;
+}
+.Add h2{
+   display: flex;
+   flex-direction: row;
+}
+#See{
+ display: flex;  
+ flex-direction: row;
+}
+.Services{
+   margin: 250px auto;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   max-width: 1500px;
+   width: 100%;
+   height: auto;
+}
+.S_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 200px;
+   padding: 250px;
+}
+.Testimonials{
+   display: flex;
+   flex-direction: column;
+   margin: 250px auto;
+   padding:30px;
+   width: 1200px;
+   padding: 100px;
+}
+.T_whole{
+   display: flex;
+   flex-direction: column;
+}
+.footer{
+   width:5000px;
+}
+.Newsletter{
+   width: 5000px;
+}
+}
